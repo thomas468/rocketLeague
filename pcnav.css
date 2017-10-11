@@ -1,0 +1,127 @@
+*{
+    background-color: #B6B6B6;
+}
+.container{
+    padding: 5px;
+    width: 100%;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+            /* ALLES IN DE BOVENSTE BALK*/
+.ham_icon {
+    padding: 20px;
+    background-color: black;
+}
+#hamburger{
+    size: 10px;
+    background-color: black;
+}
+.fa-navicon {
+background-color: rgba(0,0,0,0);
+font-size: 50px;
+}
+nav ul{
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+nav input:checked + ul{
+    display:block;
+    position: absolute;
+
+}
+nav li:hover > ul{
+    display: block;
+    width: 100%;
+    
+}
+nav a{
+    display: block;
+    background: #06566E;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav a:hover, a:active {
+    background-color: #DA8013;
+
+}
+
+
+/*social media icons*/
+
+.socialmedia a { /*ik gebruik hier een float, moet iets anders worden*/
+    font-size: 40px;  
+    text-align: center;  
+    text-decoration: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-steam {
+    background: #2E2D2D;
+    color: #D1D0D0;
+}
+
+/*social media end*/
+/*navigation end*/
+
+/*TITLE*/
+.title{
+    border: 1px solid green;
+}
+.title img{
+    width:100%;
+}
+/*END TITLE*/ 
+/*ARTICLE*/
+.news {
+    flex-flow: column;
+}
+article {
+    border: 1px solid red;
+    width: 100%;
+
+}
+article img {
+    width:100%;
+}
+article h2 {
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+    background: rgba(0, 0, 0, 0);
+}
+
+h2 span { 
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+/*END ARTICLE*/
